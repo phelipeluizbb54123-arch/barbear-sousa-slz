@@ -1,0 +1,18 @@
+@echo off
+TITLE Enviar Barbearia para Vercel
+COLOR 0A
+
+echo ========================================================
+echo   ENVIANDO ATUALIZACOES PARA O GITHUB
+echo ========================================================
+echo.
+
+git add index.html
+git commit -m "Site atualizado barbearia leo sousa"
+git push origin main
+
+echo.
+echo ========================================================
+echo Concluido! A Vercel vai atualizar o site em alguns segundos.
+echo ========================================================
+pause
